@@ -1,16 +1,15 @@
+/* ? Body Selector */
 body {
   margin: 0;
 }
-
+/* !Flex box functionality */
 .flex-box {
   display: flex;
   padding: 10%;
 }
 
-.header .half-width p {
-  margin-bottom: 40px;
-}
-
+/* ? Top Banner Section Starts */
+/* ? to position each box into half width */
 .half-width {
   width: 50%;
 }
@@ -46,10 +45,15 @@ body {
   background-repeat: no-repeat;
 }
 
+/* ? Top banner section ends */
+
+/* ? Biography Section starts */
 .biography {
   background-image: url("../personal-website-data/biography-bg.png");
   background-repeat: no-repeat;
 }
+
+/* ? My latest work section */
 .flex-work {
   display: flex;
   padding: 10%;
@@ -68,6 +72,7 @@ body {
   margin-top: 100px;
 }
 
+/* ? Client Section */
 .client {
   text-align: center;
 }
@@ -108,6 +113,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* ! Footer section */
 footer {
   margin-top: 100px;
   text-align: center;
