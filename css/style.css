@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+.flex-box {
+  display: flex;
+  padding: 10%;
+}
+
+.header .half-width p {
+  margin-bottom: 40px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.half-width h2 {
+  font-weight: 500;
+}
+.half-width h2 {
+  text-align: justify;
+}
+
+.half-width h1 {
+  color: red;
+  font-size: 40px;
+}
+
+.half-width img {
+  width: 80%;
+}
+
+.link-button {
+  text-decoration: none;
+  color: black;
+  padding: 10px 40px;
+  background-image: linear-gradient(to right, #b2fefa, #0ed2f7);
+}
+
+.top-banner {
+  background-image: url(../personal-website-data/header-bg.png);
+  background-repeat: no-repeat;
+}
+
+.biography {
+  background-image: url("../personal-website-data/biography-bg.png");
+  background-repeat: no-repeat;
+}
+.flex-work {
+  display: flex;
+  padding: 10%;
+}
+
+img {
+  width: 33.33%;
+}
+
+.work {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.client {
+  text-align: center;
+}
+
+.client h1 {
+  margin-bottom: 50px;
+}
+
+.ceo {
+  margin-bottom: 40px;
+}
+
+.email {
+  background-image: linear-gradient(to right, #d66d75, #e29587);
+  margin: 0px 30%;
+  padding: 20px;
+  border-radius: 3%;
+}
+
+.email h1 {
+  color: #fff;
+}
+.email small {
+  color: #fff;
+}
+
+.email-content {
+  margin-top: 20px;
+}
+
+.client {
+  background-image: url(../personal-website-data/footer-bg.png);
+  background-repeat: no-repeat;
+}
+
+.latest-work {
+  background-image: url(../personal-website-data/latest-work-bg.png);
+  background-repeat: no-repeat;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 200;
+}
