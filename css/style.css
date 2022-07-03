@@ -30,6 +30,9 @@ body {
 .half-width img {
   width: 80%;
 }
+.flex-box p {
+  margin-bottom: 40px;
+}
 
 .link-button {
   text-decoration: none;
@@ -52,7 +55,11 @@ body {
   padding: 10%;
 }
 
-img {
+/* img {
+  width: 33.33%;
+} */
+
+#fix-image img {
   width: 33.33%;
 }
 
